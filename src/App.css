@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body {
+  background: #f2f2f2;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+/* Barra Lateral */
+.barra-lateral {
+  background: #262a34;
+  color: #fff;
+  min-width: 300px;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.barra-lateral a {
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* LOGO */
+.barra-lateral .logo {
+  background: #0275db;
+}
+
+.barra-lateral .logo h2 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* MENU */
+.barra-lateral .menu a {
+  display: block;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.barra-lateral .menu a:hover {
+  background: #35ae6b;
+}
+
+.barra-lateral .menu a svg {
+  margin-right: 10px;
+}
+
+/* MEDIAQUERIES */
+/* Dispositivo xs */
+@media screen and (max-width: 320px) {
+}
+/* Dispositivo sm */
+@media screen and (max-width: 576px) {
+  .barra-lateral {
+    min-height: auto;
   }
-  to {
-    transform: rotate(360deg);
+}
+/* Dispositivo md */
+@media screen and (max-width: 768px) {
+}
+/* Dispositivo lg */
+@media screen and (max-width: 992px) {
+}
+/* Dispositivo xl */
+@media screen and (max-width: 1200px) {
+  .barra-lateral {
+    min-width: auto;
   }
+  .barra-lateral .logo {
+    display: none;
+  }
+
+  .barra-lateral .menu a svg {
+    display: none;
+  }
+}
+/* Dispositivo xxl */
+@media screen and (max-width: 1400px) {
 }
