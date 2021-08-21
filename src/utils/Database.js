@@ -17,26 +17,22 @@ export const Database = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi tenetur odio praesentium, libero animi nihil suscipit sequi ea labore.',
     post: 'Mi primera entrega',
   },
-  ,
   {
     img: persona3,
     name: 'Mirta stol',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi tenetur odio praesentium, libero animi nihil suscipit sequi ea labore.',
     post: 'Mi primera entrega',
   },
-  ,
   {
     img: persona4,
     name: 'Anibal Monroe',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi tenetur odio praesentium, libero animi nihil suscipit sequi ea labore.',
     post: 'Mi primera entrega',
   },
-  ,
   {
     img: persona5,
     name: 'Susan Miller',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eligendi tenetur odio praesentium, libero animi nihil suscipit sequi ea labore.',
     post: 'Mi primera entrega',
   },
-  ,
 ];
