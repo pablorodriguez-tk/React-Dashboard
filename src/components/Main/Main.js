@@ -1,6 +1,7 @@
 import React from 'react';
 import Statistics from '../Widgets/Statistics/Statistics';
 import NewEntry from '../Widgets/NewEntry/NewEntry';
+import Comments from '../Widgets/Comments/Comments';
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
         </div>
         <div className="columna col-12 col-lg-5">
           <Statistics />
+          <Comments />
         </div>
       </div>
     </main>
